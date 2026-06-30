@@ -275,13 +275,29 @@ body{
 
 }
 
-    .line1{top:27.8%; width:54%;}
-    .line2{top:31.5%; width:66%;}
-    .line3{top:35.6%; width:59%;}
-    .graduate{top:39.8%; width:52%;}
-    .line5{top:54.8%; width:66%;}
-    .info{top:64.8%; width:70%;}
-    .venue{top:77.8%; width:48%;}
+    .line1{ top:31.5%; width:14%; }
+.line2{ top:34.5%; width:16%; }
+.line3{ top:37.5%; width:15%; }
+
+.graduate{
+    top:40.5%;
+    width:13%;
+}
+
+.line5{
+    top:49%;
+    width:18%;
+}
+
+.info{
+    top:52%;
+    width:20%;
+}
+
+.venue{
+    top:60.5%;
+    width:14%;
+}
 
     .map-click{
         top:88%;
