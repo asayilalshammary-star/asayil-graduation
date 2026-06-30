@@ -264,6 +264,7 @@ body{
 }
 
 @media(max-width:600px){
+
     #envelope{
         width:88vw;
     }
@@ -271,6 +272,8 @@ body{
     .invite-card{
         width:94vw;
     }
+
+}
 
     .line1{top:27.8%; width:54%;}
     .line2{top:31.5%; width:66%;}
@@ -285,4 +288,3 @@ body{
         width:40%;
         height:5.8%;
     }
-}
