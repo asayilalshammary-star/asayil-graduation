@@ -41,6 +41,6 @@ function showItemsSlowly(){
             item.classList.add("show");
         }, delay);
 
-        delay += 1100; // سرعة ظهور الأسطر: زيدي الرقم لو تبينه أبطأ
+        delay += 1300; // سرعة ظهور الأسطر: زيدي الرقم لو تبينه أبطأ
     });
 }
