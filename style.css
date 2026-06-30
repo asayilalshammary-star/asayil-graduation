@@ -275,28 +275,46 @@ body{
 
 }
 
-    .line1{ top:31.5%; width:14%; }
-.line2{ top:34.5%; width:16%; }
-.line3{ top:37.5%; width:15%; }
+    .line1{ top:30.3%; width:27%; }
+.line2{ top:33.7%; width:31%; }
+.line3{ top:37.0%; width:29%; }
 
 .graduate{
     top:40.5%;
-    width:13%;
+    width:25%;
 }
 
 .line5{
-    top:49%;
-    width:18%;
+    top:47.8%;
+    width:34%;
 }
 
 .info{
-    top:52%;
-    width:20%;
+    top:50.8%;
+    width:38%;
 }
 
 .venue{
-    top:60.5%;
-    width:14%;
+    top:62.5%;
+    width:25%;
+}
+
+.map-click{
+    position:absolute;
+    left:50%;
+    top:82.8%;
+    transform:translateX(-50%);
+    width:24%;
+    height:3.8%;
+    border-radius:50px;
+    background:transparent;
+    opacity:0;
+    pointer-events:none;
+    z-index:999;
+}
+
+.map-click.show{
+    pointer-events:auto;
 }
 
     .map-click{
